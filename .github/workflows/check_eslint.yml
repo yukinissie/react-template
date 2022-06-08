@@ -2,7 +2,7 @@ name: Check eslint format.
 on: push
 
 jobs:
-  run_prettier:
+  run_eslint:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository

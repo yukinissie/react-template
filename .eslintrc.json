@@ -6,15 +6,14 @@
   },
   "extends": [],
   "rules": {
-    "no-unused-vars": "off",
-    "@typescript-eslint/no-unused-vars": "off",
+    "no-unused-vars": "warn",
     "no-path-concat": "off",
-    "camelcase": "off",
+    "camelcase": "warn",
     "no-array-constructor": "off"
   },
   "ignorePatterns": ["./.github/*"],
   "parserOptions": {
-    "parser": "@typescript-eslint/parser",
+    // "parser": "@typescript-eslint/parser",
     "ecmaVersion": 2018,
     "sourceType": "module"
   }

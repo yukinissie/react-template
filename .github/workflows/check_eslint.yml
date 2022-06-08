@@ -19,4 +19,4 @@ jobs:
 
       - name: Run eslint
         run: |
-          yarn eslint --ext \".js,.ts\" --ignore-path .gitignore .
+          yarn eslint --ext '.js,.ts' --ignore-path .gitignore .

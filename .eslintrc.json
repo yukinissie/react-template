@@ -14,7 +14,7 @@
   "ignorePatterns": ["./.github/*"],
   "parserOptions": {
     // "parser": "@typescript-eslint/parser",
-    "ecmaVersion": 2018,
+    "ecmaVersion": "latest",
     "sourceType": "module"
   }
 }
